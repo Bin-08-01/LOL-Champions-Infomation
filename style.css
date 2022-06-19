@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2A263E;
+}
+
+#main{
+    text-align: center;
+}
+
+#main>h1{
+    font-size: 40px;
+    margin: 40px 0;
+    color: #999;
+}
+
+#list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#list>li{
+    cursor: pointer;
+    margin: 12px;
+    text-align: center;
+    background-color: #000;
+    border-radius: 1rem;
+    color: #ccc;
+}
+
+#list>li>img{
+    width: 100px;
+    height: 100px;
+}
+
